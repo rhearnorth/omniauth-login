@@ -14,7 +14,7 @@ development:
   reconnect: false
   database: omniauth-login_development
   pool: 5
-  username: omniauth-login
+  username: root
   password:
   host: localhost
 

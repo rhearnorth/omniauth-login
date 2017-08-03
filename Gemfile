@@ -25,7 +25,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'high_voltage'
 gem 'mysql2', '~> 0.3.18'
 gem 'omniauth'
-gem 'omniauth-google-oauth2'
+gem 'omniauth-line'
 group :development do
   gem 'better_errors'
   gem 'guard-bundler'
@@ -42,6 +42,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'pry'
 end
 group :test do
   gem 'capybara'
